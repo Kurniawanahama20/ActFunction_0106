@@ -11,3 +11,13 @@ void input() {
     cin >> p;
     cout << "masukan lebar =";
     cin >> l;
+}
+
+int luaspersegi(){
+    return p * l;
+}
+
+void output(){
+    cout << "hasilnya = " << luaspersegi() << endl;
+    cout << "terima kasih";
+}
